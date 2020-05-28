@@ -1,0 +1,547 @@
+{
+	"id": "63beeda3-8db5-4595-b1ad-8ccd5f239915",
+	"name": "node-react",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": null,
+	"order": [
+		"019f0afc-e640-4bea-9fd9-7a6338759be9",
+		"9ace0069-cb77-4d0b-a901-645a6a298a6e",
+		"ce5b3e85-38db-4c8c-8481-2c0526b2def5",
+		"d90e6a11-1149-460e-8b4b-093310c61e92",
+		"599e3534-3a48-46be-bb23-967d263ddf6e",
+		"cad3ce5e-323d-4b08-803e-d60f4e0db380",
+		"05414a18-4aed-4e21-83e0-4acafecfe769",
+		"ed98886f-5468-419a-a18b-368d95d2bbd4",
+		"4880b1fa-a26d-4ef8-9fc2-647d404143ef",
+		"d4dae944-a182-4b4f-971e-163509a06674",
+		"f82f2fdb-5371-4d57-abfb-176dab31fc69",
+		"e1052f6f-b79e-412e-be74-e06a63881b55",
+		"6662a595-1d7f-4a4f-87e0-01a7a3562665"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "019f0afc-e640-4bea-9fd9-7a6338759be9",
+			"name": "http://localhost:5000/api/users/register",
+			"url": "http://localhost:5000/api/users/register",
+			"description": "",
+			"data": [
+				{
+					"key": "name",
+					"value": "Suraj Mondal",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password2",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "jonneystar@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "05414a18-4aed-4e21-83e0-4acafecfe769",
+			"name": "http://localhost:5000/api/profile/all",
+			"url": "http://localhost:5000/api/profile/all",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "4880b1fa-a26d-4ef8-9fc2-647d404143ef",
+			"name": "http://localhost:5000/api/posts/",
+			"url": "http://localhost:5000/api/posts/",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "599e3534-3a48-46be-bb23-967d263ddf6e",
+			"name": "http://localhost:5000/api/profile",
+			"url": "http://localhost:5000/api/profile",
+			"description": "",
+			"data": [
+				{
+					"key": "handle",
+					"value": "swaraj-mondal",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "Developer",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skills",
+					"value": "Django,Node,Laravel,Angular,React.js",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "company",
+					"value": "Senrysa Technologies",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "website",
+					"value": "http://swarajmondal.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "location",
+					"value": "Kolkata",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bio",
+					"value": "Full Stack Developeer",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "githubusername",
+					"value": "swarajmondal1003",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "youtube",
+					"value": "https://youtube.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "twitter",
+					"value": "https://twitter.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "facebook",
+					"value": "https://facebook.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "linkedin",
+					"value": "https://linkedin.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "instagram",
+					"value": "https://instagram.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTYyMDg2ODg4LCJleHAiOjE1NjIwOTA0ODh9.D-H6pjdjXoCYValLCf0eAtp56M8bHp81E0VVaKjI-zI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTYyMDg2ODg4LCJleHAiOjE1NjIwOTA0ODh9.D-H6pjdjXoCYValLCf0eAtp56M8bHp81E0VVaKjI-zI\nContent-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6662a595-1d7f-4a4f-87e0-01a7a3562665",
+			"name": "http://localhost:5000/api/posts/comment/5d41d472c1ace814600fe6e7/5d41d736804b4c25d0677289",
+			"url": "http://localhost:5000/api/posts/comment/5d41d472c1ace814600fe6e7/5d41d736804b4c25d0677289",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0\nContent-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9ace0069-cb77-4d0b-a901-645a6a298a6e",
+			"name": "http://localhost:5000/api/users/login",
+			"url": "http://localhost:5000/api/users/login",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "jonneystar@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "cad3ce5e-323d-4b08-803e-d60f4e0db380",
+			"name": "http://localhost:5000/api/profile/experience",
+			"url": "http://localhost:5000/api/profile/experience",
+			"description": "",
+			"data": [
+				{
+					"key": "title",
+					"value": "Developer",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "company",
+					"value": "Artage",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "from",
+					"value": "July 2018",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "location",
+					"value": "Salt Lake",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "current",
+					"value": "true",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "tech Company",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTYyMDg3NjM1LCJleHAiOjE1NjIwOTEyMzV9.iQU_aZk4qj9GGgPM3YOhjScW7szdtLJrbQ49sk1hY1M",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTYyMDg3NjM1LCJleHAiOjE1NjIwOTEyMzV9.iQU_aZk4qj9GGgPM3YOhjScW7szdtLJrbQ49sk1hY1M\nContent-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ce5b3e85-38db-4c8c-8481-2c0526b2def5",
+			"name": "http://localhost:5000/api/users/current",
+			"url": "http://localhost:5000/api/users/current",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d4dae944-a182-4b4f-971e-163509a06674",
+			"name": "http://localhost:5000/api/posts/like/5d41d472c1ace814600fe6e7",
+			"url": "http://localhost:5000/api/posts/like/5d41d472c1ace814600fe6e7",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d90e6a11-1149-460e-8b4b-093310c61e92",
+			"name": "http://localhost:5000/api/profile",
+			"url": "http://localhost:5000/api/profile",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e1052f6f-b79e-412e-be74-e06a63881b55",
+			"name": "http://localhost:5000/api/posts/comment/5d41d472c1ace814600fe6e7",
+			"url": "http://localhost:5000/api/posts/comment/5d41d472c1ace814600fe6e7",
+			"description": "",
+			"data": [
+				{
+					"key": "text",
+					"value": "This is Comment",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0\nContent-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ed98886f-5468-419a-a18b-368d95d2bbd4",
+			"name": "http://localhost:5000/api/posts/",
+			"url": "http://localhost:5000/api/posts/",
+			"description": "",
+			"data": [
+				{
+					"key": "text",
+					"value": "This is a Test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Suraj",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0\nContent-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f82f2fdb-5371-4d57-abfb-176dab31fc69",
+			"name": "http://localhost:5000/api/posts/unlike/5d41d472c1ace814600fe6e7",
+			"url": "http://localhost:5000/api/posts/unlike/5d41d472c1ace814600fe6e7",
+			"description": "",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Bearer",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDFhMzY3YzliZjFjZjJkMTQ2MWZiODYiLCJuYW1lIjoiU3VyYWogTW9uZGFsIiwiaWF0IjoxNTY0NTk0MTM0LCJleHAiOjE1NjQ1OTc3MzR9.jlTtSIZ5ej4T5X77B6l4QVqiwK2t0oW4l658VehuNb0\n",
+			"pathVariables": {}
+		}
+	]
+}
